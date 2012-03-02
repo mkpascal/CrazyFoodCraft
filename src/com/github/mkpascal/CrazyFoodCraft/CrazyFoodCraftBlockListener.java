@@ -31,13 +31,14 @@ public class CrazyFoodCraftBlockListener implements Listener {
 					   		{
 					   			player.sendMessage("Ouch. This wasn't a good one.");
 					   			player.setFireTicks(10000);
+					   			player.setItemInHand(null);
 					   		}
 					   		else
 					   		{
+					   			player.sendMessage("Nice, it heals you!");
 				                player.setHealth(20);
 				                player.setFoodLevel(20);
-					   			player.sendMessage("Nice, it heals you!");	
-					   			
+					   			player.setItemInHand(null);					   			
 					   		}
 					   
 				}
