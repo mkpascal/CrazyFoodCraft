@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<classpath>
-	<classpathentry kind="src" path="src"/>
-	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
-	<classpathentry exported="true" kind="lib" path="/Users/mkpascal/Downloads/bukkit-1.2.2-R0.1-20120302.055820-7.jar"/>
-	<classpathentry kind="output" path="bin"/>
-</classpath>
