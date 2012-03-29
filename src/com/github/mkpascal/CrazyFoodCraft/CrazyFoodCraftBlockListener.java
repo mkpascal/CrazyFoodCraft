@@ -12,6 +12,7 @@ import org.bukkit.event.player.PlayerInteractEvent;;
 
 public class CrazyFoodCraftBlockListener implements Listener {
 
+	private static final Random rand = new Random();
 	
 		@EventHandler(priority = EventPriority.NORMAL) 
         public void interactFood(PlayerInteractEvent event){
@@ -23,8 +24,6 @@ public class CrazyFoodCraftBlockListener implements Listener {
 				
 				if(player.getItemInHand().getType().equals(Material.SPECKLED_MELON))
 				{
-					
-					Random rand = new Random();
 					int x = rand.nextInt(10);
 					 
 					   		if(x < 5)
